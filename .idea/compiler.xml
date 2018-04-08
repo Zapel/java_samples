@@ -10,5 +10,8 @@
         <module name="sources" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_samples" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

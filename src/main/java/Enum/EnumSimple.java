@@ -1,4 +1,4 @@
-package Examples;
+package Enum;
 
 public class EnumSimple {
     enum CoffeeSize {SMALL(100), MEDIUM(200), BIG(300) {
