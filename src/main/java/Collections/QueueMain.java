@@ -1,12 +1,15 @@
 package Collections;
 
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class QueueMain {
     public static void main(String[] args) {
+        Queue queue = new LinkedList();
         Queue collection = new PriorityQueue();
+
         collection.offer("1");
         collection.offer("2");
         collection.offer("3");
