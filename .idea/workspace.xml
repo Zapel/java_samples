@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/MainList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/QueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SortMainCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/MainList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/MainList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/MapMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/MapMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/QueueMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/QueueMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/SetMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/SetMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Date/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Date/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$CoffeeSize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$CoffeeSize$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$CoffeeSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/EnumSimple$CoffeeSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/EnumSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/EnumSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/File/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/File/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hash/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hash/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Hash/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hash/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hash/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hash/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serializable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serializable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serializable/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serializable/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serializable/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serializable/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Serializable/UserChilld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Serializable/UserChilld.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,70 +40,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/Main.java">
+      <file leaf-file-name="SortMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SortMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MainList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="646">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/QueueMain.java">
+      <file leaf-file-name="SortMainCompare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SortMainCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="678">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMain.java">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="-522">
+              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -129,6 +122,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Collections/QueueMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Collections/SetMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Collections/MapMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collections/SortMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collections/SetMainComporatorClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collections/SortMainComporatorClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collections/SortMainCompare.java" />
       </list>
     </option>
   </component>
@@ -145,7 +142,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="428" />
     <option name="y" value="458" />
     <option name="width" value="1032" />
@@ -245,6 +242,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Collections" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Collections" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -257,29 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Main" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.MainList" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.SortMainCompare">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Date.Main" />
       <module name="java_samples" />
@@ -302,8 +285,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.QueueMain" />
+    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SetMain" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -313,8 +296,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.SetMain" />
+    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SortMain" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SortMainCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SortMainCompare" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SortMainComporatorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SortMainComporatorClass" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -366,19 +371,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.MainList" />
-      <item itemvalue="Application.QueueMain" />
       <item itemvalue="Application.SetMain" />
       <item itemvalue="Application.MapMain" />
+      <item itemvalue="Application.SortMain" />
+      <item itemvalue="Application.SortMainComporatorClass" />
+      <item itemvalue="Application.SortMainCompare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortMainCompare" />
+        <item itemvalue="Application.SortMainComporatorClass" />
+        <item itemvalue="Application.SortMain" />
         <item itemvalue="Application.MapMain" />
         <item itemvalue="Application.SetMain" />
-        <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.MainList" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,12 +402,12 @@
       <workItem from="1522993706890" duration="4261000" />
       <workItem from="1523160198045" duration="5954000" />
       <workItem from="1523240856812" duration="9664000" />
-      <workItem from="1523340759328" duration="8258000" />
+      <workItem from="1523340759328" duration="11763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34968000" />
+    <option name="totallyTimeSpent" value="38473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -418,13 +423,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966518" visible="true" weight="0.25746268" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" sideWeight="0.50332224" side_tool="true" visible="true" weight="0.25746268" />
+      <window_info id="Structure" order="1" sideWeight="0.50334823" side_tool="true" visible="true" weight="0.25746268" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -548,10 +553,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="595">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -575,24 +592,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SortMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SortMainCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="678">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
           </folding>
         </state>
       </provider>
