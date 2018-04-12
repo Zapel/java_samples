@@ -1,18 +1,35 @@
 package Generics;
 
-public class Main {
+class Car {
+    @Override
+    public String toString() {
+        return "Car{}";
+    }
+}
+
+class MainOld<T> {
+    T var;
+
     @Override
     public String toString() {
         return "Main{}";
     }
 
     public static void main(String[] args) throws Exception {
-        Main main = new Main();
+        MainOld main = new MainOld();
         main.<String>method("test");
         main.<Integer>method(123);
         main.methodOne(456);
         main.methodTwo("TEST");
         main.method(new Main());
+
+        MainOld<String> mainNew = new MainOld();
+        mainNew.var = "Zapel";
+        System.out.println("mainNew.var = " + mainNew.var);
+
+        MainOld<Car> mainCar = new MainOld();
+        mainCar.var = new Car();
+        System.out.println("mainCar.var = " + mainCar.var);
     }
 
     <T> T method(T type) {
@@ -24,9 +41,9 @@ public class Main {
         System.out.println(type);
     }
 
-    <T> T methodTwo(T type) {
+    T methodTwo(T type) {
         System.out.println(type);
         return type;
     }
-
 }
+

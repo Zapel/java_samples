@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SetMainNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/Maii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/MainList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generics/MainOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Generics/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,18 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Main.java">
+      <file leaf-file-name="MainList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Generics/MainList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#146#154#0" expanded="true" />
-                <element signature="e#182#191#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +80,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Map/MapMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Collections/SetMainNew.java" />
         <option value="$PROJECT_DIR$/src/main/java/Generics/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/MaiiOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/MainOld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/Maii.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generics/MainList.java" />
       </list>
     </option>
   </component>
@@ -114,7 +116,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,18 +149,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Generics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -194,20 +188,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.ListMain" />
+  <component name="RunManager" selected="Application.MainList">
+    <configuration name="Car$MainOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Car$MainOld" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics.Main" />
+      <module name="java_samples" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.MainList" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.MainOld" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -228,38 +245,9 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SetMainNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.SetMainNew" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SortMainCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.SortMainCompare" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SortMainComporatorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.SortMainComporatorClass" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -303,19 +291,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SortMainComporatorClass" />
-      <item itemvalue="Application.SortMainCompare" />
-      <item itemvalue="Application.ListMain" />
-      <item itemvalue="Application.SetMainNew" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Car$MainOld" />
+      <item itemvalue="Application.MainOld" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.MainList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainList" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SetMainNew" />
-        <item itemvalue="Application.ListMain" />
-        <item itemvalue="Application.SortMainCompare" />
-        <item itemvalue="Application.SortMainComporatorClass" />
+        <item itemvalue="Application.MainOld" />
+        <item itemvalue="Application.Unnamed" />
+        <item itemvalue="Application.Car$MainOld" />
       </list>
     </recent_temporary>
   </component>
@@ -337,18 +325,20 @@
       <workItem from="1523340759328" duration="14461000" />
       <workItem from="1523404557777" duration="2818000" />
       <workItem from="1523419977499" duration="4977000" />
+      <workItem from="1523512482808" duration="2757000" />
+      <workItem from="1523519266513" duration="6963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48966000" />
+    <option name="totallyTimeSpent" value="58686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="simpleUML" order="2" weight="0.32995737" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -357,13 +347,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32700893" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4927302" visible="true" weight="0.26279318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48995537" visible="true" weight="0.26812366" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" sideWeight="0.5072698" side_tool="true" visible="true" weight="0.26279318" />
+      <window_info id="Structure" order="1" sideWeight="0.51004463" side_tool="true" visible="true" weight="0.26812366" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -372,6 +362,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="simpleUML" order="2" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -384,20 +375,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/MapMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/MainOld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#332#340#0" expanded="true" />
+            <element signature="e#369#378#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Maii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Map/MapMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="21" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,11 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,11 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,9 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="4" column="21" selection-start-line="2" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,23 +532,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Map/MapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMainNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Map/MapMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMainNew.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Collections/SetMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -557,17 +541,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Maii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#146#154#0" expanded="true" />
-            <element signature="e#182#191#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/MainOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#332#340#0" expanded="true" />
+            <element signature="e#369#378#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/MainList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,6 +645,7 @@
             <option name="proportions">
               <list>
                 <option value="0.41264367" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
