@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Inner/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NamelessClass/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,17 +20,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Inner/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#263#373#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#204#320#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#488#623#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Generics/Gen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Generics/TwoGen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Inner/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/namelessClass/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NamelessClass/Main.java" />
       </list>
     </option>
   </component>
@@ -150,7 +158,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Inner" type="462c0819:PsiDirectoryNode" />
+              <item name="NamelessClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Gen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics.Gen" />
       <module name="java_samples" />
@@ -216,13 +224,12 @@
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Main" />
+      <option name="MAIN_CLASS_NAME" value="NamelessClass.Main" />
       <module name="java_samples" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.*" />
+          <option name="PATTERN" value="NamelessClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,19 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainList" />
       <item itemvalue="Application.Gen" />
       <item itemvalue="Application.TwoGen" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.TwoGen" />
         <item itemvalue="Application.Gen" />
         <item itemvalue="Application.MainList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -338,12 +345,12 @@
       <workItem from="1523419977499" duration="4977000" />
       <workItem from="1523512482808" duration="2757000" />
       <workItem from="1523519266513" duration="10478000" />
-      <workItem from="1523599599999" duration="5085000" />
+      <workItem from="1523599599999" duration="7362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67286000" />
+    <option name="totallyTimeSpent" value="69563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -614,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Inner/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="442">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
@@ -623,6 +630,27 @@
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#263#373#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#204#320#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#488#623#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
           </folding>
         </state>
       </provider>
