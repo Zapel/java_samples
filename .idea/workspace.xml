@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NamelessClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Clone/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,24 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Clone/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#263#373#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#204#320#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#488#623#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="354">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -97,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Inner/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/namelessClass/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/NamelessClass/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Clone/Main.java" />
       </list>
     </option>
   </component>
@@ -127,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,15 +155,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NamelessClass" type="462c0819:PsiDirectoryNode" />
+              <item name="Clone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,13 +219,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NamelessClass.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clone.Main" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NamelessClass.*" />
+          <option name="PATTERN" value="Clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +341,13 @@
       <workItem from="1523419977499" duration="4977000" />
       <workItem from="1523512482808" duration="2757000" />
       <workItem from="1523519266513" duration="10478000" />
-      <workItem from="1523599599999" duration="7362000" />
+      <workItem from="1523599599999" duration="7862000" />
+      <workItem from="1523956450344" duration="4842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69563000" />
+    <option name="totallyTimeSpent" value="74905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,7 +367,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.21215352" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.21428572" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5117371" side_tool="true" weight="0.3697348" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -394,6 +391,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#263#378#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#416#532#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#629#764#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Generics/TwoGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -481,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Serializable/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Serializable/Sword.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Serializable/UserChilld.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3003">
-          <caret line="554" column="29" selection-start-line="554" selection-start-column="19" selection-end-line="554" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Date/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,22 +647,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#263#373#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#204#320#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#488#623#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#263#378#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#416#532#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#629#764#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Clone/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
