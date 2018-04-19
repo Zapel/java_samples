@@ -1,4 +1,4 @@
-package Thread;
+package Thread.lesson66;
 
 public class Main {
     public static void main(String[] args) throws Exception {

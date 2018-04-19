@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson66/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thread/MyThread.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Main.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson66/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+            <state relative-caret-position="340">
+              <caret line="20" column="101" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainNew.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +113,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Reflection/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stream/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/Main1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/MainOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java" />
       </list>
     </option>
   </component>
@@ -117,8 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +183,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson66" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson66" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson67" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,6 +233,10 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Collections" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Thread.lesson67" />
+      <recent name="Thread.lesson66" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Collections" />
     </key>
@@ -190,18 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Gen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Gen" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MainNew">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inner.Main" />
       <module name="java_samples" />
@@ -213,6 +265,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.lesson67.Main" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.lesson67.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflection.Main" />
       <module name="java_samples" />
@@ -220,6 +283,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.lesson67.MainNew" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.lesson67.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Gen" />
       <item itemvalue="Application.TwoGen" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.MainNew" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainNew" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.TwoGen" />
-        <item itemvalue="Application.Gen" />
       </list>
     </recent_temporary>
   </component>
@@ -326,16 +400,16 @@
       <workItem from="1523519266513" duration="10478000" />
       <workItem from="1523599599999" duration="7862000" />
       <workItem from="1523956450344" duration="6648000" />
-      <workItem from="1524031599150" duration="10638000" />
+      <workItem from="1524031599150" duration="11017000" />
+      <workItem from="1524126100059" duration="7188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87349000" />
+    <option name="totallyTimeSpent" value="94916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -343,15 +417,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3236607" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.3236607" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3236607" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3236607" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.21641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.2185501" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5117371" side_tool="true" weight="0.3697348" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,37 +449,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reflection/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NamelessClass/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#263#378#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#416#532#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#629#764#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Generics/TwoGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -417,16 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#332#340#0" expanded="true" />
-            <element signature="e#369#378#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,12 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,12 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,16 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#332#340#0" expanded="true" />
-            <element signature="e#369#378#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,14 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,20 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#263#378#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#416#532#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#629#764#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,16 +667,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson66/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+        <state relative-caret-position="340">
+          <caret line="20" column="101" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="281" column="30" selection-start-line="281" selection-start-column="30" selection-end-line="281" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
