@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson69/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson70/VolatileMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson69/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding>
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VolatileMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson70/VolatileMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson68/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson69/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson70/VolatileMain.java" />
       </list>
     </option>
   </component>
@@ -128,8 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,34 +168,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson67" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson68" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson68" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
@@ -403,12 +381,13 @@
       <workItem from="1523599599999" duration="7862000" />
       <workItem from="1523956450344" duration="6648000" />
       <workItem from="1524031599150" duration="11017000" />
-      <workItem from="1524126100059" duration="14958000" />
+      <workItem from="1524126100059" duration="15342000" />
+      <workItem from="1524205738478" duration="2299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102686000" />
+    <option name="totallyTimeSpent" value="105369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -416,7 +395,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -424,11 +402,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3236607" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3236607" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.2185501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.22068231" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5117371" side_tool="true" weight="0.3697348" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,6 +421,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,13 +431,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Generics/Maii.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Map/MapMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Collections/MapMain.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,10 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,12 +668,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson69/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson70/VolatileMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
