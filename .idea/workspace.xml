@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson74/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/lesson75/ThreadExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,10 +20,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ThreadExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson74/ThreadExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson75/ThreadExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Examples/EnumSimple.java" />
         <option value="$PROJECT_DIR$/src/main/java/File/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/File/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Serializable/Sword.java" />
@@ -95,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson72/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson73/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson74/ThreadExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson75/ThreadExample.java" />
       </list>
     </option>
   </component>
@@ -111,7 +114,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="701" />
@@ -168,7 +171,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson74" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson75" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadExample">
+  <component name="RunManager" selected="Application.ThreadExample (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.lesson72.Main" />
       <module name="java_samples" />
@@ -259,6 +262,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="ThreadExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.lesson75.ThreadExample" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.lesson75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.lesson74.ThreadExample" />
       <module name="java_samples" />
@@ -266,17 +280,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Thread.lesson74.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="VolatileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.lesson70.VolatileMain" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.lesson70.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +326,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.VolatileMain" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.ThreadExample" />
+      <item itemvalue="Application.ThreadExample (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadExample (1)" />
         <item itemvalue="Application.ThreadExample" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.VolatileMain" />
       </list>
     </recent_temporary>
   </component>
@@ -365,12 +368,12 @@
       <workItem from="1524126100059" duration="15342000" />
       <workItem from="1524205738478" duration="2299000" />
       <workItem from="1524467955351" duration="12101000" />
-      <workItem from="1524550691205" duration="2822000" />
+      <workItem from="1524550691205" duration="5591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120292000" />
+    <option name="totallyTimeSpent" value="123061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,6 +381,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -389,7 +393,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.2249467" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48826292" visible="true" weight="0.2249467" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5117371" side_tool="true" weight="0.3697348" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,7 +408,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.328125" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,20 +417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/File/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enum/EnumSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Examples/EnumExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Examples/EnumExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Enum/EnumSimple.java">
@@ -670,8 +659,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson74/ThreadExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson75/ThreadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
