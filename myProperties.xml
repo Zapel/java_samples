@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map>
+      <entry key="JetBrains.UserIdOnMachine" value="036f341d-be7a-48ed-8b8f-5983884f8ab6"/>
+      <entry key="key" value="value"/>
+    </map>
+    <node name="Preferences">
+      <map/>
+    </node>
+    <node name="jetbrains">
+      <map>
+        <entry key="user_id_on_machine" value="036f341d-be7a-48ed-8b8f-5983884f8ab6"/>
+      </map>
+      <node name="idea">
+        <map/>
+        <node name="586f6bed">
+          <map/>
+          <node name="evlsprt">
+            <map>
+              <entry key="181" value="-1524985191796"/>
+            </map>
+          </node>
+          <node name="evlsprt2">
+            <map>
+              <entry key="181" value="-1523343611772"/>
+            </map>
+          </node>
+          <node name="evlsprt3">
+            <map>
+              <entry key="181" value="-20"/>
+            </map>
+          </node>
+        </node>
+        <node name="fa361a71">
+          <map/>
+          <node name="evlsprt">
+            <map>
+              <entry key="173" value="-1518078341812"/>
+            </map>
+          </node>
+          <node name="evlsprt2">
+            <map>
+              <entry key="173" value="-1517467951739"/>
+            </map>
+          </node>
+          <node name="evlsprt3">
+            <map>
+              <entry key="173" value="-11"/>
+            </map>
+          </node>
+        </node>
+        <node name="fa361a74">
+          <map/>
+          <node name="evlsprt">
+            <map>
+              <entry key="173" value="-1520495475784"/>
+            </map>
+          </node>
+          <node name="evlsprt2">
+            <map>
+              <entry key="173" value="-1519638242993"/>
+            </map>
+          </node>
+          <node name="evlsprt3">
+            <map>
+              <entry key="173" value="-13"/>
+            </map>
+          </node>
+        </node>
+      </node>
+      <node name="jetprofile">
+        <map/>
+        <node name="asset">
+          <map/>
+          <node name="ii">
+            <map/>
+          </node>
+        </node>
+      </node>
+      <node name="privacy_policy">
+        <map>
+          <entry key="accepted_version" value="1.5"/>
+        </map>
+      </node>
+    </node>
+    <node name="myPackage">
+      <map/>
+    </node>
+  </root>
+</preferences>
