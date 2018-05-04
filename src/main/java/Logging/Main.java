@@ -4,7 +4,7 @@ import java.util.logging.*;
 
 public class Main {
     //private static final Logger logger2 = Logger.getGlobal();
-    //private static final Logger logger2 = Logger.getLogger("Loggining.Main");
+    //private static final Logger logger2 = Logger.getLogger("Loggining.MultipleInheritanceLesson");
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
 

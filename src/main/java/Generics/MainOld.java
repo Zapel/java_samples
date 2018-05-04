@@ -12,7 +12,7 @@ class MainOld<T> {
 
     @Override
     public String toString() {
-        return "Main{}";
+        return "MultipleInheritanceLesson{}";
     }
 
     public static void main(String[] args) throws Exception {
