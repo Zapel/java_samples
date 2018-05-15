@@ -1,47 +1,49 @@
 package File;
 
+import org.omg.CORBA.portable.InputStream;
+
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
-        //File file = new File("temp");
-        File file = new File("temp.txt");
-        if(!file.exists()){
-            //file.mkdir();
-            file.createNewFile();
-            //System.out.println("exists");
-        }
-
+    public static void main(String[] args) throws IOException {
+        Reader reader = new FileReader("temp.txt");
         /*
-        if(file.isDirectory()){
-            System.out.println("dir");
-        }
-        if (file.isFile()){
-            System.out.println("file");
+        int i = 0;
+        while ((i = reader.read()) != -1) {
+            System.out.println((char) i);
         }
         */
 
-        FileWriter fileWriter = new FileWriter(file);
-        fileWriter.write("str1\n");
-        fileWriter.write("str2\n");
-        fileWriter.flush();
-        //fileWriter.close();
+        /*
+        char[] chars = new char[50];
 
-        FileReader fileReader = new FileReader(file);
-        //char[] chars = new char[20];
-        //fileReader.read(chars);
-        //System.out.println(chars);
+        while (reader.read(chars) != -1) {
+            System.out.println(chars);
+        }
 
-        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-        bufferedWriter.write("str3");
-        bufferedWriter.newLine();
-        bufferedWriter.write("str4");
-        bufferedWriter.flush();
-        bufferedWriter.close();
+        System.out.println();
 
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-        while (bufferedReader.ready()){
+        while (reader.read(chars) != -1) {
+            for(int i = 0; i < chars.length; i ++) {
+                if(Character.isAlphabetic(chars[i]) || Character.isWhitespace(chars[i])) {
+                    System.out.println(chars);
+                }
+            }
+        }
+
+        System.out.println();
+        */
+
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("temp.txt"));
+
+        while (bufferedReader.read() != -1) {
             System.out.println(bufferedReader.readLine());
         }
+
+
+
+        Writer writer;
+        InputStream inputStream;
+        OutputStream outputStream;
     }
 }
