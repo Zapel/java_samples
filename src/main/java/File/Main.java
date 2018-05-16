@@ -32,17 +32,35 @@ public class Main {
         }
 
         System.out.println();
-        */
+
 
         BufferedReader bufferedReader = new BufferedReader(new FileReader("temp.txt"));
 
         while (bufferedReader.read() != -1) {
             System.out.println(bufferedReader.readLine());
         }
+        */
+
+        Writer writer = new FileWriter("temp.txt" );
+
+        writer.write("str1\n");
+        writer.write("str2\n");
+        writer.write("str3\n");
+        writer.write("str4\n");
+        writer.write("str5\n");
+        //writer.flush();
+        writer.close();
+
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("temp1.txt"));
+
+        bufferedWriter.write("str1");
+        bufferedWriter.newLine();
+        bufferedWriter.write("str2");
+        bufferedWriter.newLine();
+        bufferedWriter.write("str3");
+        bufferedWriter.close();
 
 
-
-        Writer writer;
         InputStream inputStream;
         OutputStream outputStream;
     }
