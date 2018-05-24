@@ -12,7 +12,16 @@ public class Main2 {
             Socket socket = serverSocket.accept();
             Scanner scanner = new Scanner(socket.getInputStream());
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
-            printWriter.println("Hello");
+            //printWriter.println("Hello");
+
+            while (scanner.hasNextLine()) {
+                String str =scanner.nextLine();
+                printWriter.println("you have sent: " + str);
+                System.out.println(str);
+                if(str.equals("exit")) {
+                    break;
+                }
+            }
         }
     }
 }
