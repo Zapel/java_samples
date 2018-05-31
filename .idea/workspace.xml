@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/EchoServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/EchoServer.java" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/EchoServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddresTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddresTest.java" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddresTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddressTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddressTest.java" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddressTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/SocketTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/SocketTest.java" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/SocketTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/ThradedEchoServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/ThradedEchoServer.java" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/ThradedEchoServer.java" />
-    </list>
+    <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,9 +104,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="497" />
-    <option name="y" value="502" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="896" />
+    <option name="y" value="59" />
     <option name="width" value="1014" />
     <option name="height" value="604" />
   </component>
@@ -505,7 +494,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="896" y="59" width="1014" height="604" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -519,7 +508,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26310274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
