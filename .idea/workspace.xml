@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/UCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/URLDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_samples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/EchoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddresTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/InetAddressTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/SocketTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/ThradedEchoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddresTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/EchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/InetAddresTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/InetAddressTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/SocketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/ThradedEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/ThreadedEchoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TCP_IP/book/URLConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TCP_IP/book/URLConnectionTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,15 +22,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="URLConnectionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java">
+      <file leaf-file-name="URLDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/URLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3096#3097#0" expanded="true" />
-                <element signature="e#3122#3123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UCDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/UCDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Thread/Main1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Thread/MainOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java" />
@@ -116,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/java/TCP_IP/book/ThradedEchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/TCP_IP/book/SocketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/URLDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/UCDemo.java" />
       </list>
     </option>
   </component>
@@ -209,13 +207,22 @@
               <item name="TCP_IP" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP_IP" type="462c0819:PsiDirectoryNode" />
+              <item name="HerbSchildt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,18 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.URLConnectionTest">
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCP_IP.book.EchoServer" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCP_IP.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.UCDemo">
     <configuration name="InetAddresTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TCP_IP.book.InetAddresTest" />
       <module name="java_samples" />
@@ -289,17 +285,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TCP_IP.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.lesson77.Main" />
-      <module name="java_samples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.lesson77.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,6 +311,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="UCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCP_IP.HerbSchildt.UCDemo" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCP_IP.HerbSchildt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="URLConnectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TCP_IP.book.URLConnectionTest" />
       <module name="java_samples" />
@@ -333,6 +329,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TCP_IP.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCP_IP.HerbSchildt.URLDemo" />
+      <module name="java_samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCP_IP.HerbSchildt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,17 +388,17 @@
     <list>
       <item itemvalue="Application.InetAddressTest" />
       <item itemvalue="Application.SocketTest" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.InetAddresTest" />
       <item itemvalue="Application.URLConnectionTest" />
+      <item itemvalue="Application.URLDemo" />
+      <item itemvalue="Application.UCDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UCDemo" />
+        <item itemvalue="Application.URLDemo" />
         <item itemvalue="Application.URLConnectionTest" />
         <item itemvalue="Application.SocketTest" />
         <item itemvalue="Application.InetAddressTest" />
-        <item itemvalue="Application.InetAddresTest" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -453,11 +460,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32908705" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49727964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.74972796" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -510,20 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="82" lean-forward="true" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson67/MainNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Thread/lesson74/ThreadExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -819,20 +812,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddresTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddresTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/SocketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -851,20 +832,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/URLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3096#3097#0" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/HerbSchildt/UCDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

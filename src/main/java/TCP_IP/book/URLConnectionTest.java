@@ -12,7 +12,7 @@ public class URLConnectionTest {
         try {
             String urlName;
             if(args.length > 0) urlName = args[0];
-            else urlName = "http://horstman.com";
+            else urlName = "http://chint.net.ua";
 
             URL url = new URL(urlName);
             URLConnection connection = url.openConnection();
