@@ -6,7 +6,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Main {
+public class MainClient {
     public static void main(String[] args) throws IOException {
         try(Socket socket = new Socket()) {
             //socket.connect(new InetSocketAddress("localhost", 8189), 2000);

@@ -12,17 +12,17 @@ import java.util.Properties;
 public class EmailLessons {
     public static void main(String[] args) throws IOException, MessagingException {
         final Properties properties = new Properties();
-        properties.load(EmailLessons.class.getClassLoader().getResourceAsStream("mail.properties"));
+        properties.load(EmailLessons.class.getClassLoader().getResourceAsStream("email.properties"));
 
         Session mailSession = Session.getDefaultInstance(properties);
         MimeMessage message = new MimeMessage(mailSession);
-        message.setFrom(new InternetAddress("lazebaoleg"));
+        message.setFrom(new InternetAddress("oleg.lazeba@chint-ukraine.com"));
         message.addRecipient(Message.RecipientType.TO, new InternetAddress("zapel176@ukr.net"));
         message.setSubject("hello");
         message.setText("Hi this is my test message");
 
         Transport tr = mailSession.getTransport();
-        tr.connect(null, "zapel1706");
+        tr.connect(null, "123456!a");
         tr.sendMessage(message, message.getAllRecipients());
         tr.close();
     }
