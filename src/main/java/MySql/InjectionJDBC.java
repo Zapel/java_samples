@@ -17,8 +17,8 @@ public class InjectionJDBC {
                     "name CHAR(30) NOT NULL, " +
                     "password CHAR(30) NOT NULL, " +
                     "PRIMARY KEY (id));");
-            //statement.executeUpdate("insert into Users (name, password) values ('Zapel', '170678')");
-            //statement.executeUpdate("insert into Users set name = 'Oleg', password = 'fisher1706'");
+            statement.executeUpdate("insert into Users (name, password) values ('Zapel', '170678')");
+            statement.executeUpdate("insert into Users set name = 'Oleg', password = 'fisher1706'");
 
             //String userId = "1";
             String userId = "1' or 1 = '1";
