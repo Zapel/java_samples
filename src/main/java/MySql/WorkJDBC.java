@@ -11,7 +11,7 @@ public class WorkJDBC {
 
         try(Connection connection = DriverManager.getConnection(connectionUrl, userName, password);
             Statement statement = connection.createStatement()) {
-           //statement.executeUpdate("DROP TABLE booksnew;");
+            //statement.executeUpdate("DROP TABLE booksnew;");
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS Books (" +
                     "id MEDIUMINT NOT NULL AUTO_INCREMENT, " +
                     "name CHAR(30) NOT NULL, " +
