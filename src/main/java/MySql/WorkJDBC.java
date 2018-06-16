@@ -16,8 +16,8 @@ public class WorkJDBC {
                     "id MEDIUMINT NOT NULL AUTO_INCREMENT, " +
                     "name CHAR(30) NOT NULL, " +
                     "PRIMARY KEY (id));");
-            //statement.executeUpdate("INSERT INTO Books (NAME) VALUES ('Inferno')");
-            //statement.executeUpdate("insert into Books set name = 'Solomon Key'");
+            statement.executeUpdate("INSERT INTO Books (NAME) VALUES ('Inferno')");
+            statement.executeUpdate("insert into Books set name = 'Solomon Key'");
             ResultSet resultSet1 = statement.executeQuery("select * from Books");
             while (resultSet1.next()) {
                 System.out.println(resultSet1.getInt(1));
