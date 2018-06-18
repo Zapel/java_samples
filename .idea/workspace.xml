@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709defc7-3dd3-4205-863e-f6ab8a8839e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7dff90-4685-40b1-b087-7a3021c35456.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4cacccd9-d077-4a5f-9511-be2ad3251a6d.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/HelloMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_samples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_samples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MySql/CachedRowSetJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MySql/CachedRowSetJDBC.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,23 +82,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CachedRowSetJDBC.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java">
+      <file leaf-file-name="HelloMBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/HelloMBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books" pinned="false" current-in-tab="false">
-        <entry file="das://9369490f-6384-4fe9-8204-d16166e662d8/schema/test/table/books">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +144,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson78/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson79/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson80/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Thread/lesson81/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson82/Sem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson83/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/lesson83/Sem.java" />
@@ -172,6 +203,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MySql/MultipleResultsJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/MySql/ScrollableJDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/HelloMBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Main.java" />
       </list>
     </option>
   </component>
@@ -226,8 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +292,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MySql" type="462c0819:PsiDirectoryNode" />
+              <item name="jmxlesson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_samples" type="b2602c69:ProjectViewProjectNode" />
@@ -275,6 +308,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,14 +333,14 @@
       <recent name="Thread.lesson67" />
       <recent name="Thread.lesson66" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\java_projects\sources\java_samples\src\main\java\Thread\lesson69" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java_projects\sources\java_samples\src\main\java\WebStart" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Collections" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\java_projects\sources\java_samples\src\main\java\WebStart" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java_projects\sources\java_samples\src\main\java\Thread\lesson69" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CachedRowSetJDBC">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BLOBJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MySql.BLOBJDBC" />
       <module name="java_samples" />
@@ -387,13 +422,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ScrollableJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySql.ScrollableJDBC" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JMX.jmxlesson.Main" />
       <module name="java_samples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MySql.*" />
+          <option name="PATTERN" value="JMX.jmxlesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +475,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ScrollableJDBC" />
       <item itemvalue="Application.CachedRowSetJDBC" />
       <item itemvalue="Application.ConnectionJDBC" />
       <item itemvalue="Application.DataJDBC" />
       <item itemvalue="Application.BLOBJDBC" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CachedRowSetJDBC" />
         <item itemvalue="Application.ConnectionJDBC" />
         <item itemvalue="Application.BLOBJDBC" />
         <item itemvalue="Application.DataJDBC" />
-        <item itemvalue="Application.ScrollableJDBC" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +525,13 @@
       <workItem from="1529053523854" duration="2735000" />
       <workItem from="1529063224394" duration="463000" />
       <workItem from="1529063763238" duration="3704000" />
-      <workItem from="1529068921455" duration="1233000" />
+      <workItem from="1529068921455" duration="1379000" />
+      <workItem from="1529304611267" duration="8080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195773000" />
+    <option name="totallyTimeSpent" value="203999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,7 +544,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
@@ -519,14 +554,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32908705" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25897714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25897714" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297062" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3297062" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1977612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -538,6 +572,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
@@ -545,31 +580,31 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25897714" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25897714" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.1977612" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3297062" />
+      <window_info anchor="right" id="Database" order="8" weight="0.1977612" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297062" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3297062" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,28 +645,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddresTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/SocketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/InetAddressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TCP_IP/book/URLConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -889,6 +902,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://9369490f-6384-4fe9-8204-d16166e662d8/schema/test/table/books">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -896,10 +919,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MySql/CachedRowSetJDBC.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/HelloMBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JMX/jmxlesson/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
