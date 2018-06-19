@@ -1,7 +1,13 @@
 package JMX.jmxlesson;
 
-public class Hello implements HelloMBean {
-    private  String name;
+import javax.management.AttributeChangeNotification;
+import javax.management.MBeanNotificationInfo;
+import javax.management.Notification;
+import javax.management.NotificationBroadcasterSupport;
+
+public class Hello extends NotificationBroadcasterSupport implements HelloMBean {
+    private String name;
+    static int sequenceNumber = 0;
 
     @Override
     public String getName() {
@@ -16,6 +22,10 @@ public class Hello implements HelloMBean {
     @Override
     public void sayHello() {
         System.out.println("Hello from jmx.");
+
+        Notification notification = new AttributeChangeNotification(this, sequenceNumber ++, System.currentTimeMillis(), "I said Hello.",
+                "sequenceNumber", "int", sequenceNumber -1, sequenceNumber);
+        sendNotification(notification);
     }
 
     @Override
@@ -26,5 +36,16 @@ public class Hello implements HelloMBean {
     @Override
     public Person returnPerson() {
         return new Person();
+    }
+
+    @Override
+    public MBeanNotificationInfo[] getNotificationInfo() {
+        String[] types = new String[]{
+                AttributeChangeNotification.ATTRIBUTE_CHANGE
+        };
+        String name = AttributeChangeNotification.class.getName();
+        String description = "An attribute of this MBeans has changed.";
+        MBeanNotificationInfo info = new MBeanNotificationInfo(types, name, description);
+        return new MBeanNotificationInfo[]{info};
     }
 }
