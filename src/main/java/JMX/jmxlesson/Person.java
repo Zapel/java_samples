@@ -1,6 +1,8 @@
 package JMX.jmxlesson;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private  String name = "Zapel";
 
     public String getName() {
