@@ -2,20 +2,35 @@ package Patterns;
 
 public class BuilderLesson {
     public static void main(String[] args) {
-        SportCar sportCar = SportCar.
+        SportCar sportCar = new SportCar.Builder("Audi")
+                //.setColor("red")
+                //.setMaxSpeed(200)
+                .build();
+        System.out.println(sportCar.getName());
+        System.out.println(sportCar.getColor());
+        System.out.println(sportCar.getMaxSpeed());
 
+        System.out.println();
+
+        SportCar sportCarNew = new SportCar.Builder("BMW")
+                .setColor("red")
+                .setMaxSpeed(300)
+                .build();
+        System.out.println(sportCarNew.getName());
+        System.out.println(sportCarNew.getColor());
+        System.out.println(sportCarNew.getMaxSpeed());
     }
 }
 
 class SportCar {
     private String name;
-    private String color = "black";
-    private int maxSpeed = 200;
+    private String color;
+    private int maxSpeed;
 
     public String getName() {
         return name;
     }
-    /*
+
     public String getColor() {
         return color;
     }
@@ -24,33 +39,16 @@ class SportCar {
         return maxSpeed;
     }
 
-    public SportCar(String name) {
-        this.name = name
-    }
-
-    public SportCar(String name, String color) {
-        this.name = name;
-        this.color = color;
-    }
-
-    public SportCar(String name, String color, int maxSpeed) {
-        this.name = name;
-        this.color = color;
-        this.maxSpeed = maxSpeed;
-    }
-    */
-
     private SportCar(Builder builder) {
         this.name = builder.name;
         this.color = builder.color;
         this.maxSpeed = builder.maxSpeed;
-
     }
 
     static class Builder {
         private String name;
-        private String color;
-        private int maxSpeed;
+        private String color = "black";
+        private int maxSpeed = 200;
 
         public Builder(String name) {
             this.name = name;
