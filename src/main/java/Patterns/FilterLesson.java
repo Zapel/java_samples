@@ -100,7 +100,6 @@ class OrFilter implements CarFilter {
     }
 }
 
-
 class CarF {
     private int maxSpeed;
     private int doors;
