@@ -7,7 +7,7 @@ public class CommandLesson {
     public static void main(String[] args) {
         Receiver receiver = new Receiver ();
         receiver.addCommand ( new MouseClick () );
-        receiver.addCommand ( new MousePrees () );
+        receiver.addCommand ( new MousePress () );
         receiver.RunCommand ();
     }
 }
@@ -29,7 +29,7 @@ class MouseClick implements Command {
     }
 }
 
-class MousePrees implements Command {
+class MousePress implements Command {
     @Override
     public void execute() {
         System.out.println ("click mouse pressed");
