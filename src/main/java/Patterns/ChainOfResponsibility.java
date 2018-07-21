@@ -17,13 +17,15 @@ abstract class MessagePrinter {
         nextMessagePrinter = messagePrinter;
     }
 
+    abstract void printMessage(String message);
+
     void print(String message) {
         printMessage ( message );
         if(nextMessagePrinter != null) {
             nextMessagePrinter.print ( message );
         }
     }
-    abstract void printMessage(String message);
+
 }
 
 class ConsoleMessagePrinter extends MessagePrinter {
